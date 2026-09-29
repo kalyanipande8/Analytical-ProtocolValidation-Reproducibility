@@ -1,0 +1,13 @@
+batch_id,target_id,analyst,day,purity_pct,aggregation_pct,true_injected_shift,true_root_cause,purity_mean,purity_sd,agg_mean,agg_sd,n_validation_runs,purity_lower_limit,aggregation_upper_limit,purity_z,aggregation_z,flag_purity_low,flag_aggregation_high,any_flag,flag_category,severity
+QC-0001,TNF-alpha-mAb,Analyst-2,16,97.716,0.831,False,,98.4736,0.2498,1.0687,0.1502,20,97.7243,1.5193,-3.0328,-1.5826,True,False,True,purity_low_only,marginal (3<=|z|<4)
+QC-0005,TNF-alpha-mAb,Analyst-3,12,96.126,1.28,True,degraded_reference_standard,98.4736,0.2498,1.0687,0.1502,20,97.7243,1.5193,-9.3979,1.4068,True,False,True,purity_low_only,severe (|z|>=5)
+QC-0012,TNF-alpha-mAb,Analyst-2,45,97.333,1.47,True,reagent_lot_drift,98.4736,0.2498,1.0687,0.1502,20,97.7243,1.5193,-4.5661,2.6718,True,False,True,purity_low_only,major (4<=|z|<5)
+QC-0023,PD-1-mAb,Analyst-3,31,96.571,1.199,True,degraded_reference_standard,98.0579,0.2156,1.3347,0.148,20,97.4111,1.7787,-6.8966,-0.9169,True,False,True,purity_low_only,severe (|z|>=5)
+QC-0058,HER2-mAb,Analyst-2,51,97.688,0.741,False,,98.5726,0.2556,0.9964,0.187,20,97.8058,1.5575,-3.4609,-1.3658,True,False,True,purity_low_only,marginal (3<=|z|<4)
+QC-0062,EGFR-mAb,Analyst-3,18,97.291,2.951,True,instrument_fault,98.0455,0.3186,1.2056,0.1794,20,97.0897,1.7439,-2.3682,9.7291,False,True,True,aggregation_high_only,severe (|z|>=5)
+QC-0141,PSMAxCD3-Bispecific,Analyst-3,1,94.875,3.817,True,sample_mishandling_stress,95.7985,0.4729,2.5246,0.415,20,94.3798,3.7694,-1.9528,3.1142,False,True,True,aggregation_high_only,marginal (3<=|z|<4)
+QC-0151,Fc-Fusion-1,Analyst-3,44,96.243,2.584,True,sample_mishandling_stress,97.0928,0.3237,1.5584,0.3102,20,96.1217,2.4889,-2.6253,3.3063,False,True,True,aggregation_high_only,marginal (3<=|z|<4)
+QC-0153,Fc-Fusion-1,Analyst-3,38,97.011,2.955,True,instrument_fault,97.0928,0.3237,1.5584,0.3102,20,96.1217,2.4889,-0.2527,4.5023,False,True,True,aggregation_high_only,major (4<=|z|<5)
+QC-0167,Fc-Fusion-2,Analyst-3,13,95.853,1.605,False,,97.1122,0.3363,1.7041,0.3398,20,96.1033,2.7234,-3.7443,-0.2916,True,False,True,purity_low_only,marginal (3<=|z|<4)
+QC-0170,Fc-Fusion-2,Analyst-1,51,96.885,2.939,True,instrument_fault,97.1122,0.3363,1.7041,0.3398,20,96.1033,2.7234,-0.6756,3.6342,False,True,True,aggregation_high_only,marginal (3<=|z|<4)
+QC-0216,PEG-Protein-1,Analyst-3,13,96.569,3.073,True,instrument_fault,97.5564,0.2963,1.1868,0.2456,20,96.6676,1.9237,-3.3324,7.68,True,True,True,purity_low_and_aggregation_high,severe (|z|>=5)
